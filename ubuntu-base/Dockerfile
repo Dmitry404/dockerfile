@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     xz-utils \
     wget \
     vim \
-    bash-completion \
+    lsof \
+    iproute \
   && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
