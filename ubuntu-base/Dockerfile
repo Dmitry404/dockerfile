@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     vim \
     lsof \
     iproute \
+    iputils-ping \ 
   && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
