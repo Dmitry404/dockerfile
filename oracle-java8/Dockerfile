@@ -1,6 +1,6 @@
 # Oracle JRE 8u121-b13
 FROM dmitry404/ubuntu-base
-MAINTAINER dmity404@gmail.com
+LABEL maintainer dmity404@gmail.com
 
 RUN wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
 		 http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jre-8u121-linux-x64.tar.gz \

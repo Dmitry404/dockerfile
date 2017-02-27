@@ -1,6 +1,6 @@
 # Base Ubuntu image for my needs
 FROM ubuntu:16.04
-MAINTAINER dmitry404@gmail.com
+LABEL maintainer dmitry404@gmail.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     bzip2 \
